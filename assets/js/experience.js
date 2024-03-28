@@ -6,14 +6,14 @@ const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
     title: "Research Intern",
-    cardImage: "assets/images/DSY.PA-35ee07a0.png",
+    cardImage: "assets/images/d9QJGb_0_400x400.jpg",
     place: "Dassault Systèmes",
     time: "(Feb 2024 - present)",
     desp: "<li>The internship’s project aims to develop a model allowing users to generate 3D furniture with accurate parameters (dimensions, style, etc.) using only a single image of that furniture.</li> <li>The project consists of three main parts:</li> <ul> <li>Object Detection and Segmentation: Implement Fast R-CNN and SAM techniques to detect, segment, and process object images in preparation for training datasets for the diffusion model.</li> <li>Retrieval: Perform a CLIP Retrieval using the raw image of the object to retrieve the most similar 3D object in the catalog.</li> <li>Denoising Process: Develop a K-diffusion model to denoise the parameters of the objects conditioned, among other factors, by the raw image provided by the user and the depth map of the image.</li> </ul>",
   },
   {
-    title: "Machine Learning Engineer",
-    cardImage: "assets/images/Criteo.png",
+    title: "Machine Learning Engineer Intern",
+    cardImage: "assets/images/criteo-logo-2021.jpeg",
     place: "Criteo",
     time: "(July 2023 - Jan 2024)",
     desp: "<li>The goal of this internship was to enhance model accuracy in predicting the category and brand of products by integrating visual and textual data using CLIP embeddings.</li> <li>We successfully achieved the following:</li> <ul> <li>Leveraged fine-tuned CLIP embeddings to integrate image and textual data (titles, descriptions) of products and predict their standardized category and brand within the Google taxonomy.</li> <li>Implemented a hierarchical model utilizing both modalities and existing category information to effectively predict subsequent-level categories in the Google taxonomy.</li> <li>Achieved a 7% accuracy improvement compared to the production model solely relying on textual information.</li> <li>Reduced the inference time of the brand model by 40% through a statistical study, resulting in the retention of only the active brands (reducing from 50,000 to 10,000 brands).</li> </ul>",

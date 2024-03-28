@@ -7,7 +7,7 @@ const projectcards = document.querySelector(".projectcards");
 const projects = [
   {
     title: "K-diffusion with a TransformerEncoder (Ongoing)",
-    cardImage: "assets/images/1fsGpkQcKn71z1TRGR89bg.jpg",
+    cardImage: "assets/images/karras2022elucidating_thumb.png",
     description: "This project investigates the use of transformer encoders for predicting noise added to a vector or matrix. The goal is to train a model that can effectively capture the underlying noise patterns and accurately predict the noise value for each element in the sequence. ",
     tagimg: "",
     Previewlink: "",
